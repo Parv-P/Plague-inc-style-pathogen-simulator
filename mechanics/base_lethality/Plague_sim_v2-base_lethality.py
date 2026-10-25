@@ -16,8 +16,8 @@ def Stats(h, i, d, dayCount):
     print(f"dead:     {d}")
     print(f"day:      {dayCount}")
     print("---------------------------------")
-    days += 1
-    return days
+    dayCount += 1
+    return dayCount
     
 
 isRunning = True
