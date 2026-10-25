@@ -1,4 +1,4 @@
-#Base infectivity
+# Base infectivity
 
 this is the initial version of plague_sim, it has the infectivity loop for the final version of the simulator and a basic win condition:
 
