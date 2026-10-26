@@ -1,4 +1,4 @@
-# Base infectivity
+# Base lethality
 The base lethality is added to the initial version, with the win condition changed from "everyone infected" to "everyone dead":
 
 variables: added all the needed variables for lethality (and other ones for symptoms)
