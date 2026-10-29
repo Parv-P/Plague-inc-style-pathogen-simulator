@@ -31,11 +31,11 @@ class AllCountries:
         isInfected = random.random()
         if isInfected < 0.05:
             if len(self.healthyCountries) > 0:
-                random_country_name = random.choice(self.healthyCountries)
-                self.healthyCountries.remove(random_country_name)
-                self.infectedCountries.append(random_country_name)
-                target_country = self.countries[random_country_name]
-                target_country.PathogenSpreadHere(patientZeroCount=1)
+                randomCountryName = random.choice(self.healthyCountries)
+                self.healthyCountries.remove(randomCountryName)
+                self.infectedCountries.append(randomCountryName)
+                targetCountry = self.countries[randomCountryName]
+                targetCountry.PathogenSpreadHere(patientZeroCount=1)
                 print(f"The pathogen has just started spreading in {random_country_name}!")
 
     def Update(self):
