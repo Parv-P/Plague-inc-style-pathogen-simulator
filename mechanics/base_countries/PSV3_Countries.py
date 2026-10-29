@@ -21,8 +21,8 @@ class AllCountries:
 
     def __init__(self):
         self.countries = {
-           "UK": Countries(67000000),
-           "USA": Countries(331000000)
+           "UK": Countries(69483900),
+           "USA": Countries(349594000)
         }
         self.healthyCountries = list(self.countries.keys())
         self.infectedCountries = []
