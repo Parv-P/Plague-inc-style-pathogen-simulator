@@ -36,7 +36,7 @@ class AllCountries:
                 self.infectedCountries.append(randomCountryName)
                 targetCountry = self.countries[randomCountryName]
                 targetCountry.PathogenSpreadHere(patientZeroCount=1)
-                print(f"The pathogen has just started spreading in {random_country_name}!")
+                print(f"The pathogen has just started spreading in {randomCountryName}!")
 
     def Update(self):
         for countryName, countryObj in self.countries.items():
