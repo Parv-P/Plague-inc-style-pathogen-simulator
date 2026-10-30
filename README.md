@@ -2,6 +2,7 @@
 This is a python pathogen simulator inspired by the well known strategy game Plague Inc
 
 Its a work in progress, hopefully i finish it quickly
+(check mechanics for more info about the progress i have made)
 
 KEY FEATURES DONE:
 Base infectivity system,
